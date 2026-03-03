@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhajit Ghosh | IoT & Robotics Developer</title>
+    <meta name="description"
+        content="Portfolio of Subhajit Ghosh - B.Tech CSD Student, IoT & Robotics Developer specializing in smart automation.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&family=Dancing+Script:wght@500;700&family=Cinzel:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background -->
+    <div id="particles-js"></div>
+
+    <!-- Intro Sequence -->
+    <div id="intro-overlay">
+        <div class="tech-envelope-wrapper" id="envelope-trigger">
+            <div class="envelope-3d">
+                <div class="envelope-back"></div>
+                <div class="envelope-letter" id="letter-pop">
+                    <div class="letter-content">
+                        <span class="gradient-text" style="font-weight: 700;">ACCESS REQUESTED</span>
+                        <small style="color: var(--accent-cyan); display: block; margin-top: 5px;">DECRYPTING
+                            PORTFOLIO...</small>
+                    </div>
+                </div>
+                <div class="envelope-front"></div>
+                <div class="envelope-top"></div>
+            </div>
+            <div class="envelope-seal">
+                <div class="seal-inner">
+                    <i class="fas fa-fingerprint"></i>
+                    <span>OPEN ME</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Name Prompt -->
+    <div id="name-prompt">
+        <div class="prompt-card">
+            <h2 class="gradient-text">Who is entering?</h2>
+            <input type="text" id="visitor-name" placeholder="Enter Your Name..." autocomplete="off">
+            <p style="margin-top: 20px; color: var(--text-dim); font-size: 0.8rem;">Press Enter to Proceed</p>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <h1 class="bollywood-title">Welcome to the World of</h1>
+        <h1 class="bollywood-title" style="font-size: 6rem; color: var(--primary);">Subhajit Ghosh</h1>
+        <div class="tech-subtext" id="loading-status">INITIALIZING SYSTEMS...</div>
+    </div>
+
+
+
+    <!-- Page Container -->
+    <div id="page-container">
+        <!-- Hero Section -->
+        <section id="hero" class="active-page">
+            <div class="content-wrapper hero-split">
+                <div class="hero-text">
+                    <h2 class="gradient-text"
+                        style="font-size: 1.2rem; letter-spacing: 2px; text-transform: uppercase;">
+                        Hello, I'm</h2>
+                    <h1 style="font-size: clamp(2.5rem, 8vw, 4.5rem); margin: 10px 0;">Subhajit Ghosh</h1>
+                    <h3 style="font-size: 1.3rem; color: var(--text-dim); margin-bottom: 20px;">B.Tech CSD Student |
+                        <span class="gradient-text">IoT & Robotics Developer</span>
+                    </h3>
+                    <p style="max-width: 500px; margin: 0 auto 30px;">Designing Smart Automation Systems with IoT,
+                        Embedded Tech & Robotics Engineering. Bridging hardware
+                        intelligence with software excellence.</p>
+
+                    <div class="hero-btns"
+                        style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 30px;">
+                        <a href="https://www.linkedin.com/in/subhajit-ghosh-a17104348/" target="_blank"
+                            class="glass-card" style="padding: 10px 20px; text-decoration: none; color: white;"><i
+                                class="fab fa-linkedin"></i>
+                            LinkedIn</a>
+                        <a href="https://github.com/SubhoG333" target="_blank" class="glass-card"
+                            style="padding: 10px 20px; text-decoration: none; color: white;"><i
+                                class="fab fa-github"></i>
+                            GitHub</a>
+                        <a href="mailto:suvojitghosh2000@gmail.com" class="glass-card reach-out-trigger"
+                            style="padding: 10px 20px; text-decoration: none; color: white;"><i
+                                class="fas fa-envelope"></i>
+                            Email</a>
+                    </div>
+                </div>
+
+                <div class="hero-avatar">
+                    <div class="hologram-container">
+                        <img src="subhajit_photo.jpg" alt="Subhajit Ghosh" class="hologram-img">
+                        <div class="scanline"></div>
+                        <div class="hologram-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <p
+                style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); font-size: 0.85rem; color: var(--text-dim);">
+                <i class="fas fa-map-marker-alt" style="color: var(--accent-blue);"></i> Durgapur, West Bengal |
+                +91 8927592080
+            </p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="future-page">
+            <div class="content-wrapper">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-flex-container">
+                    <div class="glass-card about-text-col" style="padding: 30px; text-align: left;">
+                        <p>
+                            I am a passionate B.Tech Computer Science & Design student (Batch 2027) with a strong
+                            interest
+                            in IoT automation, robotics design, and embedded systems development. Combining my
+                            Mechanical
+                            Engineering background with CAD modeling skills, I build real-world smart solutions that
+                            solve
+                            practical problems.
+                        </p>
+                        <p style="margin-top: 15px;">
+                            I enjoy designing intelligent monitoring systems, developing Android applications, and
+                            building
+                            automation-based IoT projects. I am constantly exploring advanced embedded systems and
+                            sensor
+                            integration.
+                        </p>
+
+                        <div style="margin-top: 25px;">
+                            <h4 class="gradient-text" style="margin-bottom: 15px;">Core Objectives:</h4>
+                            <p style="font-size: 0.9rem; font-style: italic;">"To contribute in the field of IoT and
+                                Robotics by designing innovative automation solutions that combine hardware intelligence
+                                with software engineering."</p>
+                        </div>
+                    </div>
+
+                    <div class="about-cards-col">
+                        <div class="shuffling-cards-container" id="about-shuffling-cards" title="Click to shuffle!">
+                            <div class="shuffling-card"><img src="sg1.jpg" alt="Subhajit Ghosh Photo 1"></div>
+                            <div class="shuffling-card"><img src="sg2.jpg" alt="Subhajit Ghosh Photo 2"></div>
+                            <div class="shuffling-card"><img src="sg3.jpg" alt="Subhajit Ghosh Photo 3"></div>
+                            <div class="shuffling-card"><img src="sg4.jpg" alt="Subhajit Ghosh Photo 4"></div>
+                            <div class="shuffling-card"><img src="sg5.jpg" alt="Subhajit Ghosh Photo 5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="future-page">
+            <div class="content-wrapper">
+                <h2 class="section-title">Academic Journey</h2>
+                <div style="display: grid; gap: 15px;">
+                    <div class="glass-card"
+                        style="padding: 20px; border-left: 4px solid var(--accent-blue); text-align: left;">
+                        <h3 class="gradient-text">B.Tech CSD (Ongoing)</h3>
+                        <p>CGPA: 7.65 (till 3rd Sem) | BCREC, Durgapur (2023 – 2027)</p>
+                    </div>
+
+                    <div class="glass-card"
+                        style="padding: 20px; border-left: 4px solid var(--accent-cyan); text-align: left;">
+                        <h3 class="gradient-text">Diploma Mechanical</h3>
+                        <p>GPA: 9.6 | Raiganj Govt. Polytechnic (2020 – 2022)</p>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <div class="glass-card" style="padding: 15px; text-align: center;">
+                            <p style="font-size: 0.75rem; color: var(--text-dim);">12th (WBCHSE)</p>
+                            <h4 style="color: var(--accent-blue);">68%</h4>
+                        </div>
+                        <div class="glass-card" style="padding: 15px; text-align: center;">
+                            <p style="font-size: 0.75rem; color: var(--text-dim);">10th (CBSE)</p>
+                            <h4 style="color: var(--accent-cyan);">94%</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (Interactive Ancient Book) -->
+        <section id="projects" class="future-page">
+            <div class="book-container" id="book-container">
+                <div class="book-wrapper">
+                    <!-- Front Cover (Closed State) -->
+                    <div class="book-cover-front" id="book-cover">
+                        <div class="cover-content">
+                            <h2
+                                style="font-family: 'Cinzel', serif; color: #fbf0d9; font-size: 2.5rem; margin-bottom: 10px;">
+                                The Technical Chronicles</h2>
+                            <p class="handwritten-text" style="color: #d7ccc8; font-size: 1.5rem;">Subhajit Ghosh</p>
+                            <div style="font-size: 5rem; margin: 30px 0;">📜</div>
+                            <p style="font-family: 'Cinzel', serif; color: #a1887f; letter-spacing: 2px;">Click to
+                                Unveil</p>
+                        </div>
+                    </div>
+
+                    <!-- The Open Book Structure -->
+                    <div class="book-open-state" id="book-open-state"
+                        style="display: none; opacity: 0; transition: opacity 0.8s ease;">
+                        <div class="book">
+                            <!-- Left Page -->
+                            <div class="page left-page">
+                                <div class="corner-nav corner-nav-left" id="prev-corner" title="Previous Artifact">
+                                </div>
+                                <div class="page-inner" id="book-visual">
+                                    <!-- JS will inject Image & Link here -->
+                                </div>
+                            </div>
+                            <!-- Right Page -->
+                            <div class="page right-page">
+                                <div class="corner-nav corner-nav-right" id="next-corner" title="Next Artifact"></div>
+                                <div class="page-inner" id="book-details">
+                                    <!-- JS will inject Info here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hidden Project Data -->
+            <div id="project-data" style="display: none;">
+                <div class="project-item" data-name="Air Quality Monitor"
+                    data-desc="Real-time IoT based air quality monitoring system using MQ-135 sensor and Blynk. Tracks pollution levels with automated Telegram alerts."
+                    data-img="air_monitor.png" data-link="https://github.com/SubhoG333/smart-air-quality-monitoring"
+                    data-tech="Arduino, MQ-135, Blynk IoT"></div>
+                <div class="project-item" data-name="Smart Garden"
+                    data-desc="Automated soil-moisture based irrigation system via Blynk IoT. Optimized for smart farming with real-time sensor feedback."
+                    data-img="smart_garden.png" data-link="https://github.com/SubhoG333/smart_irrigation_system"
+                    data-tech="ESP32, Capacitive Sensor, Relay"></div>
+                <div class="project-item" data-name="To-Do List App"
+                    data-desc="Java-based task management application with a user-friendly modern UI and persistent storage."
+                    data-img="todo_list.png" data-link="https://github.com/SubhoG333/To_do-list-app"
+                    data-tech="Java, Swing, SQLite"></div>
+                <div class="project-item" data-name="4-Legged Robot"
+                    data-desc="Ongoing quadruped design focusing on active suspension, gait balance, and mechanical stability in rough terrain."
+                    data-img="robot_project.png" data-link="#" data-tech="Fusion360, Servo, Arduino"></div>
+                <div class="project-item" data-name="Weather Update App"
+                    data-desc="Android Studio weather forecasting application using Volley API for real-time global weather updates."
+                    data-img="WEATHER_FALLBACK" data-link="#" data-tech="Android Studio, Volley API"></div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="future-page">
+            <div class="content-wrapper">
+                <h2 class="section-title">Technical Arsenal</h2>
+                <div
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; text-align: left;">
+                    <div class="glass-card" style="padding: 20px;">
+                        <h4 class="gradient-text" style="display: flex; align-items: center; gap: 10px;"><i
+                                class="fas fa-microchip"></i> IoT & HW</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+                            <span style="font-size: 0.85rem;"><i class="fas fa-infinity" style="color: #0078d7;"></i>
+                                Arduino</span>
+                            <span style="font-size: 0.85rem;"><i class="fas fa-wifi" style="color: #ffaa00;"></i>
+                                ESP32</span>
+                            <span style="font-size: 0.85rem;"><i class="fas fa-cloud" style="color: #23d5ab;"></i> Blynk
+                                IoT</span>
+                            <span style="font-size: 0.85rem;"><i class="fas fa-project-diagram"
+                                    style="color: #00ffff;"></i> Sensor Integration</span>
+                        </div>
+                    </div>
+                    <div class="glass-card" style="padding: 20px;">
+                        <h4 class="gradient-text" style="display: flex; align-items: center; gap: 10px;"><i
+                                class="fas fa-code"></i> Languages</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+                            <span style="font-size: 0.85rem;"><i class="fab fa-cuttlefish" style="color: #00599c;"></i>
+                                C</span>
+                            <span style="font-size: 0.85rem;"><i class="fab fa-python" style="color: #3776ab;"></i>
+                                Python</span>
+                            <span style="font-size: 0.85rem;"><i class="fab fa-java" style="color: #007396;"></i>
+                                Java</span>
+                        </div>
+                    </div>
+                    <div class="glass-card" style="padding: 20px;">
+                        <h4 class="gradient-text" style="display: flex; align-items: center; gap: 10px;"><i
+                                class="fas fa-drafting-compass"></i> Engineering</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+                            <span style="font-size: 0.85rem;"><i class="fas fa-cube" style="color: #ff3333;"></i>
+                                AutoCAD</span>
+                            <span style="font-size: 0.85rem;"><i class="fas fa-pencil-ruler"
+                                    style="color: #ffa500;"></i> Inventor</span>
+                            <span style="font-size: 0.85rem;"><i class="fas fa-vector-square"
+                                    style="color: #00d2ff;"></i> Fusion360</span>
+                        </div>
+                    </div>
+                    <div class="glass-card" style="padding: 20px;">
+                        <h4 class="gradient-text" style="display: flex; align-items: center; gap: 10px;"><i
+                                class="fas fa-mobile-alt"></i> Mobile</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+                            <span style="font-size: 0.85rem;"><i class="fab fa-android" style="color: #3ddc84;"></i>
+                                Android Studio</span>
+                            <span style="font-size: 0.85rem;"><i class="fas fa-exchange-alt"
+                                    style="color: #00ffff;"></i> API Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 20px; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+                    <span class="glass-card"
+                        style="padding: 5px 12px; font-size: 0.7rem; display: flex; align-items: center; gap: 5px;"><i
+                            class="fas fa-award" style="color: gold;"></i> NPTEL IoT Gold (98%)</span>
+                    <span class="glass-card"
+                        style="padding: 5px 12px; font-size: 0.7rem; display: flex; align-items: center; gap: 5px;"><i
+                            class="fas fa-certificate" style="color: var(--accent-cyan);"></i> Autodesk Certified
+                        Trainer</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Resume Section -->
+        <section id="resume" class="future-page">
+            <div class="content-wrapper">
+                <h2 class="section-title">Technical Blueprint</h2>
+                <div class="resume-grid">
+                    <!-- Left Column: Summary & Education -->
+                    <div class="resume-col">
+                        <div class="glass-card mb-20">
+                            <h3 class="gradient-text"><i class="fas fa-id-card"></i> Profile Summary</h3>
+                            <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-dim);">
+                                Detail-oriented B.Tech Computer Science and Design student with hands-on experience in
+                                IoT-based automation systems, embedded development using ESP32 and Arduino, and 3D CAD
+                                modeling. Skilled in designing smart monitoring solutions.
+                            </p>
+                        </div>
+
+                        <div class="glass-card">
+                            <h3 class="gradient-text"><i class="fas fa-university"></i> Education Chronicles</h3>
+                            <div class="timeline-item">
+                                <span class="time">2023 - 2027</span>
+                                <h4>B.Tech in CSD</h4>
+                                <p>Dr. B.C. Roy Engineering College | CGPA: 7.65</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="time">2020 - 2022</span>
+                                <h4>Diploma in Mechanical</h4>
+                                <p>Raiganj Govt. Polytechnic | GPA: 9.6</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="time">2019</span>
+                                <h4>12th (WBCHSE)</h4>
+                                <p>Bidhan Chandra Institution | 68%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Certs & Achievements -->
+                    <div class="resume-col">
+                        <div class="glass-card mb-20">
+                            <h3 class="gradient-text"><i class="fas fa-ribbon"></i> Major Certifications</h3>
+                            <ul class="blueprint-list">
+                                <li><i class="fas fa-check-double"></i> Autodesk Certified Trainer (AutoCAD & Inventor)
+                                </li>
+                                <li><i class="fas fa-check-double"></i> NPTEL IoT Gold Medalist (98% Score)</li>
+                                <li><i class="fas fa-check-double"></i> Smart Air Quality & Garden IoT Specialist</li>
+                            </ul>
+                        </div>
+
+                        <div class="glass-card">
+                            <h3 class="gradient-text"><i class="fas fa-trophy"></i> Key Achievements</h3>
+                            <ul class="blueprint-list">
+                                <li>Developed autonomous 4-legged robotic suspension.</li>
+                                <li>Implemented real-time pollution monitoring via IoT.</li>
+                                <li>Actively exploring embedded robotic intelligence.</li>
+                            </ul>
+                            <div style="margin-top: 25px; text-align: center;">
+                                <a href="#" id="resume-trigger" class="github-seal"
+                                    style="display: inline-flex; width: auto;">
+                                    <i class="fas fa-eye"></i> View Full Resume
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strengths/Contact -->
+        <section id="contact" class="future-page">
+            <div class="content-wrapper">
+                <h2 class="section-title">Final Thoughts</h2>
+                <div class="glass-card" style="padding: 25px; text-align: center;">
+                    <h3 class="gradient-text" style="margin-bottom: 20px;">Professional Strengths</h3>
+                    <div
+                        style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 30px;">
+                        <span
+                            style="font-size: 0.85rem; color: var(--text-dim); display: flex; align-items: center; gap: 5px;"><i
+                                class="fas fa-check-circle" style="color: var(--primary);"></i> Analytical
+                            Thinking</span>
+                        <span
+                            style="font-size: 0.85rem; color: var(--text-dim); display: flex; align-items: center; gap: 5px;"><i
+                                class="fas fa-check-circle" style="color: var(--primary);"></i> Problem Solving</span>
+                        <span
+                            style="font-size: 0.85rem; color: var(--text-dim); display: flex; align-items: center; gap: 5px;"><i
+                                class="fas fa-check-circle" style="color: var(--primary);"></i> Adaptability</span>
+                        <span
+                            style="font-size: 0.85rem; color: var(--text-dim); display: flex; align-items: center; gap: 5px;"><i
+                                class="fas fa-check-circle" style="color: var(--primary);"></i> Team
+                            Collaboration</span>
+                    </div>
+
+                    <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                        <a href="mailto:suvojitghosh2000@gmail.com" class="glass-card reach-out-trigger"
+                            style="padding: 10px 20px; text-decoration: none; color: inherit;"><i
+                                class="fas fa-envelope"></i> Reach Out</a>
+                    </div>
+                </div>
+
+                <footer style="margin-top: 30px; color: var(--text-dim); font-size: 0.75rem;">
+                    <p>&copy; 2026 Subhajit Ghosh. Durgapur, West Bengal.</p>
+                </footer>
+            </div>
+        </section>
+
+        <!-- Thank You Section (Bollywood Finale) -->
+        <section id="thank-you" class="future-page">
+            <div style="text-align: center;">
+                <h1 class="bollywood-title" style="font-size: clamp(3rem, 15vw, 8rem);">THANK YOU</h1>
+                <h2 class="handwritten-text" style="color: var(--gold); font-size: 2.5rem; margin-top: -20px;">Visit
+                    Again</h2>
+                <div
+                    style="margin-top: 40px; font-family: 'Cinzel', serif; letter-spacing: 5px; color: var(--accent-cyan); opacity: 0.7;">
+                    THE END
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Parchment Scroll Overlay (Classic Mode) -->
+    <div id="parchment-overlay">
+        <div class="scroll-container">
+            <div class="scroll-roller top"></div>
+            <div class="parchment-paper">
+                <div class="handwritten-content">
+                    <h1 class="handwritten-name">Subhajit Ghosh</h1>
+                    <p class="handwritten-text">IoT & Robotics Developer</p>
+                    <div class="handwritten-details">
+                        <p><i class="fas fa-envelope"></i> suvojitghosh2000@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +91 8927592080</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Durgapur, West Bengal</p>
+                        <hr style="border: none; border-top: 1px dashed #8b4513; margin: 20px 0;">
+                        <p style="font-size: 1.2rem; line-height: 1.6;">
+                            "Combining the precision of engineering with the curiosity of a designer. Let's create
+                            something intelligent together."
+                        </p>
+                    </div>
+                </div>
+                <button id="close-parchment">Back to Future</button>
+            </div>
+            <div class="scroll-roller bottom"></div>
+        </div>
+    </div>
+
+    <!-- Resume Backdrop Modal -->
+    <div id="resume-modal" class="modal-overlay">
+        <div class="modal-content">
+            <img src="resume.jpg" alt="Subhajit Ghosh Resume" class="resume-img-full">
+            <p class="modal-hint">Click anywhere to close</p>
+        </div>
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
